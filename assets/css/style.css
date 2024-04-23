@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 0px 10px;
+    /* font-family: "Playfair Display", serif; */
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+a{text-decoration: none;}
+.fs-14{font-size: 14px;}
+.lh-20{line-height: 20px;}
+.text-orange{color: #ff9933;}
+.btn{
+    /* background: linear-gradient(to right,#ffff99,#ff9933); */
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    background: #666;
+    transition: all 0.3s ease;
+}
+.btn:hover{
+    /* background: linear-gradient(to right,#ff9933,#ff9933); */
+    background: #ffb852;
+    transition: all 0.3s ease;
+}
+.bg-orange-100{
+    background: #ffecdd;
+}
+.card{
+    background: none;
+}
+
+/* Navbar Section Start */
+.navbar-expand-lg 
+.navbar-nav .nav-link{
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 20px;
+    margin-right: 10px;
+    font-weight: 300 !important;
+}
+/* Navbar Section End */
+
+/* Banner Section Start */
+.banner{
+    /* height: 730px; */
+    background: #1b4EB4;
+}
+@media only screen and (min-width: 992px) {
+    .whiteheading {
+        font-size: 40px !important;
+        color: #fff;
+        line-height: 50px;
+        font-weight: 400;
+    }
+}
+h5.whitetext {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    font-family: "Universal sans display 300", sans-serif;
+}
+
+.banner .learn>.fa-greater-than{
+    transition: all 0.4s ease;
+}
+.banner .learn:hover>.fa-greater-than{
+    margin-left: 10px;
+    transition: all 0.4s ease;
+}
+/* Banner Section End */
+
+.sourcing .heading-3{
+    color: #200c58;
+    text-align: center;
+    font-family: Ppmori, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.sourcing .heading-4 {
+    color: #ff9933;
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: Ppmori, sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+/* Contact Us Section start */
+.form-control:focus {
+    color: none;
+    background-color: none;
+    border: 1px solid #ddd;
+    outline: 0;
+    box-shadow: none;
+}
+/* Contact Us Section end */
+
+/* Footer Section Start */
+footer{
+    background: #ff9933;
+}
+footer .social-media li a,
+footer .shop li a{
+    color: #fff;
+    font-size: 15px;
+    transition: all 0.3s ease-out;
+}
+footer .social-media li a:hover{
+    font-size: 19px;
+    transition: all 0.3s ease-in;
+}
+footer .shop li a:hover{
+    transition: all 0.3s ease-in;
+    border-bottom: #fff 1px solid;
+}
+/* Footer Section End */
